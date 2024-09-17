@@ -6,7 +6,7 @@
     <title>Video with Clickable Image</title>
     <style>
         .video-container {
-            position: relative;
+            position: absolute;
             width: 640px;
             height: 360px;
         }
@@ -20,7 +20,7 @@
             position: absolute;
             bottom: 10px;
             right: 10px;
-            width: 100px;
+            width: 150px;
             cursor: pointer;
         }
     </style>
@@ -29,7 +29,7 @@
 
 <div class="video-container">
     <video controls>
-        <source src="C:\Users\Murali\Downloads\wedding_invitation.mp4" type="video/mp4">
+        <source src="wedding_invitation.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <img src="map-icon.jpeg" alt="Click to open Google Maps" class="clickable-image" onclick="redirectToGoogleMaps()">
